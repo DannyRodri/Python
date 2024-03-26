@@ -8,8 +8,8 @@ mp_pose = mp.solutions.pose
 
 cap = cv2.VideoCapture(0)
 font = cv2.FONT_HERSHEY_SIMPLEX
-font_scale = 0.5
-font_color = (255, 0, 255)
+font_scale = 0.1
+font_color = (255, 255, 255)
 line_thickness = 2
 with mp_pose.Pose(
      static_image_mode=False) as pose:
